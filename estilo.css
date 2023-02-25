@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+    padding: 0px;
+    margin-left: 95px;
+}
+header {
+    display:flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+    header img{
+        margin-top: 55px;
+        width: 329px;
+        height: 57px;
+    }
+    body h1{
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 62px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+        margin-top: 0%;
+        margin-bottom: auto;
+    }
+    body h3{
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        margin-top: 20px;
+        margin-bottom: auto;
+    }
+    form{
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 38px;
+        display: flex;
+        color: #000000;
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin-top: 5px;
+    }
+        form input{
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            margin-top: 5px;
+        }
+        form input[type="submit"]{
+            font-family: 'Times New Roman';
+            background-color: #EFEFEF;
+            font-size: 13pt;
+            width: 150px;
+            color: black;
+            border: 1px solid #000000;
+            margin-top: 20px;
+            padding: 5px;
+        }
+        .CmdProvedor{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 30px;
+            Width: 300px;
+            Height: 100px;
+            font-family: 'Times New Roman';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 15px;
+            line-height: 33px;
+            display: flex;
+            color: #000000;
+            margin-bottom: auto;
+        }
+        .CmdProvedor input{
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            margin-top: 5px;
+            font-family: 'Times New Roman';
+            background-color: #EFEFEF;
+            font-size: 13pt;
+            color: black;
+            border: 1px solid #000000;
+            margin-top: 20px;
+            padding: 5px
+        }
